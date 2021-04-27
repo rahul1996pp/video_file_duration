@@ -5,8 +5,8 @@
 - It reads only **.mkv** and** .mp4 **files only.
 - It read all subfolders files.
 - you will get output in a tabluar form.
-- In windows you can run the script by opening the **run.bat** file
-
+- In windows you can run the script by opening the **run.bat** file.
+- Output.txt file is created with total output data.
 
 
 ##  To install dependencies:
