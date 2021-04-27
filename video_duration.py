@@ -29,10 +29,10 @@ def draw_table():
     print(t.draw())
     total_time = duration_split(str(datetime.timedelta(seconds=sum(duration_sec))))
     print("[*] Total time is :- ", total_time)
-    with open("output.txt", 'a') as fi:
+    with open("output.txt", 'a', encoding="utf-8") as fi:
         fi.write(credit_text)
-        fi.write('\n'+t.draw())
-        fi.write(f"\n[*] Total time is :- {total_time}")
+        fi.write('\n' + t.draw())
+        fi.write(f"\n[*] Total timea is :- {total_time}")
 
 
 def main():
