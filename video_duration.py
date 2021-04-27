@@ -45,7 +45,7 @@ def draw_table():
 """
         fi.write(code)
         fi.write(t.draw())
-        fi.write(f"[*] Total time is :- {total_time}")
+        fi.write(f"\n[*] Total time is :- {total_time}")
 
 
 def main():
