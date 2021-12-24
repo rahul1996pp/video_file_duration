@@ -1,3 +1,4 @@
 @echo off
-python video_duration.py
+poetry install
+poetry run video_duration.py
 pause
